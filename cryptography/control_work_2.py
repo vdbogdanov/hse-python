@@ -1,9 +1,8 @@
 from functions import (
-    euclid_simple,
     euclid_extended,
-    comparison_one,
-    comparison_systems,
-    legendre_symbol,
+    comparison_x1,
+    comparison_system,
+    comparison_x2
 )
 
 #####################################################
@@ -22,13 +21,14 @@ euclid_extended(a=2577, b=1137)
 # x ≡ 16 (mod 19)
 #####################################################
 equations = [{"b": 7, "m": 15}, {"b": 19, "m": 22}, {"b": 16, "m": 19}]
-comparison_systems(equations)
+comparison_system(equations)
 
 ##################### Задание 3 #####################
 # Решить сравнение 196𝑥 ≡ 329 (mod 1253)
 #####################################################
-comparison_one(a=196, b=329, m=1253)
+comparison_x1(a=196, b=329, m=1253)
 
 ##################### Задание 4 #####################
 # Решить сравнение x^2 ≡ 420 (mod 1049)
 #####################################################
+comparison_x2(a=420, p=1049)
