@@ -1,4 +1,4 @@
-from functions import (
+from cryptography.control_work_2.functions import (
     euclid_extended,
     comparison_x1,
     comparison_system,
